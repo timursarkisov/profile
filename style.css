@@ -1,0 +1,94 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #EBEBEB;
+  font-family: 'Open-Sans', sans-serif;
+  color: rgb(30, 30, 30);
+  font-size: 16px;
+  line-height: 10px
+  font-weight: 200;
+}
+
+@@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 600px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+
+.card-white {
+  background-color: white;
+  margin: 40px;
+  padding: 30px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 3px #d2d1d1;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  color: #626F92;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+h1 {
+  color: #DD5555;
+  font-size: 22px;
+}
+a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+a:hover {
+  color: white;
+}
+table p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  text-align: justify;
+}
+
+p {
+  text-align: justify;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.btn-red {
+  background-color: #DD5555;
+  color:white;
+  padding: 10px 15px;
+  border-radius: 2px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+}
